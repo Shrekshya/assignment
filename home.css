@@ -96,8 +96,12 @@ form{
 	height: 200px;
 	margin-left: 300px;
 	margin-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-.grid-container>div{
+.grid-container >div{
 	background-color: whitesmoke;
 	font-size: 46;
 	padding: 150pxpx 0;
@@ -113,26 +117,33 @@ form{
 	margin-right: 300px;
 	padding-bottom: 0px;
 	margin-left: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-.grid-sitereport>div{
-	background-color: beige;
-	text-align: center;
-	font-size: 55;
+.grid-sitereport > div{
+	background-color: whitesmoke;
 }
-.grid3{
-	height: 600px;
-}
+.grid-sitereport{
+	display: grid;
+	grid-gap: 13px;
+	grid-template-columns: auto auto auto;
+	background-color:#fef9f8 ;
+	padding: 14px;
+	}
 .grid4{
-	height: 400px;
-	font-size: 35px;
+	height: 700px;
+	font-size: 25px;
 	grid-column-start: 1;
-	grid-column-end: 7;
-	background-color: bisque;
-}
-.row{
-	font-size: 48px;
-	background-color: bisque;
-	text-align: center;
+	grid-column-end: 3;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
 }
 .container{
 	display: grid;
@@ -157,12 +168,20 @@ form{
 	grid-column-end: 3;
 	margin-left: 180px;
 	margin-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .middle{
 	background-color: whitesmoke;
 	font-size: 25px;
 	margin-left: -100px;
 	margin-right: 180px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .right{
 	background-color: whitesmoke;
@@ -173,5 +192,9 @@ form{
 	margin-right: 180px;
 	margin-bottom: auto;
 	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
