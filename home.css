@@ -15,9 +15,10 @@ header{
  }
 .main{
 	float: right;
-}
+	}
 .main ul{
 	margin-top: -60px;
+	font-family: "helvetica neue", sans-serif;
 }
 
 .main ul li {
@@ -93,11 +94,11 @@ form{
 	grid-row-end: 3;
 	font-size: 55px;
 	height: 200px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 .grid-container>div{
-	background-color: bisque;
+	background-color: whitesmoke;
 	font-size: 46;
 	padding: 150pxpx 0;
 	grid-column-start: 1;
@@ -109,9 +110,9 @@ form{
 	height: 400px;
 	text-align: none;
 	font-size: 25px;
-	margin-right: 200px;
-	padding-bottom: 100px;
-	margin-left: 200px;
+	margin-right: 300px;
+	padding-bottom: 0px;
+	margin-left: 300px;
 }
 .grid-sitereport>div{
 	background-color: beige;
@@ -120,15 +121,6 @@ form{
 }
 .grid3{
 	height: 600px;
-}
-.grid-blog{
-	background-color: bisque;
-	display: grid;
-	grid-template-areas:'left middle right';
-	grid-gap: 5px;
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
-
 }
 .grid4{
 	height: 400px;
@@ -148,19 +140,38 @@ form{
 	grid-template-columns: 0.2fr 0.5fr 0.3fr;
 	grid-template-rows:4fr 1fr 1fr;
 	grid-gap: 10px;
-	margin-left: 80px;
-	margin-right: 70px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #fef9f8;
+	padding: 14px;
 }
-#left{
-	background-color: bisque;
-	font-size: 20px;
+.container>div{
+	background-color:whitesmoke;
+
+}
+.left{
+	background-color: whitesmoke;
+	font-size: 25px;
 	margin-left:0px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	margin-left: 180px;
+	margin-right: 100px;
 }
-#middle{
-	background-color: bisque;
-	font-size: 20px;
+.middle{
+	background-color: whitesmoke;
+	font-size: 25px;
+	margin-left: -100px;
+	margin-right: 180px;
 }
-#right{
-	background-color: bisque;
-	font-size: 20px;
+.right{
+	background-color: whitesmoke;
+	font-size: 25px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-bottom: auto;
+	margin-top: 10px;
+
 }
